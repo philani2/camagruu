@@ -1,0 +1,242 @@
+
+
+h1 {
+    font-size: 55px;
+
+}
+
+img {
+    width: 40%;
+    box-shadow: 2px 2px 15px black;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(79, 124, 207);
+    color: white;
+    text-align: center;
+ }
+body {
+    background: rgb(159, 178, 212);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 17px;
+    color: rgb(1, 11, 5);
+    font-family: 'Open Sans', sans-serif;
+}
+
+video {
+    box-shadow: 2px 2px 15px black;
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+    -moz-transform:rotateY(180deg); /* Firefox */
+    height: 100%;
+}
+
+a {
+ font-style: normal;
+ text-decoration: none;
+}
+
+.btn:hover {
+  background: #fae719;
+  background-image: -webkit-linear-gradient(top, #fae719, #b33329);
+  background-image: -moz-linear-gradient(top, #fae719, #b33329);
+  background-image: -ms-linear-gradient(top, #fae719, #b33329);
+  background-image: -o-linear-gradient(top, #fae719, #b33329);
+  background-image: linear-gradient(to bottom, #fae719, #b33329);
+  text-decoration: none;
+}
+
+a:hover {
+ color: rgb(105, 0, 255);
+}
+
+
+.left-panel {
+    float:left;
+    height: 100%;
+    max-height: 250px;
+    width: 30%;
+    max-width: 400px;
+    padding: 5px;
+    font-size: 3vw;
+
+    box-shadow: 2px 2px 15px black;
+}
+
+.right-panel {
+    float:right;
+    height: 100%;
+    width: 30%;
+    max-width: 600px;
+    padding: 5px;
+    color: rgb(5, 5, 5);
+    box-shadow: 2px 2px 15px black;
+}
+
+
+
+.main-frame {
+    width: 80%;
+}
+
+.header {
+    text-align: center;
+    
+}
+
+.container {
+    margin: 50px;
+    width: 60%;
+}
+
+#glasses, #willface, #ghost {
+    box-shadow: 0px 0px 0px black;
+}
+
+.image {
+   position: relative;
+}
+
+h2 {
+    color: rgb(80, 23, 144);
+}
+
+#send-container {
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#send-container label { font-size: 2vw; }
+
+.manage {
+    border: 1px solid black;
+}
+
+.block {
+    margin: 15px;
+}
+
+.comments {
+    width: 60%;
+    height: 100%;
+    max-height: 150px;
+    box-shadow: 2px 2px 15px black;
+    padding: 5px;
+    overflow: auto;
+    background: cornflowerblue;
+    margin: 15px;
+}
+
+.comment {
+    width: 60%;
+    padding: 15px;
+}
+
+.myButton {
+      background: cornflowerblue;
+      -webkit-border-radius: 6;
+      -moz-border-radius: 6;
+      border-radius: 6px;
+      -webkit-box-shadow: 3px 6px 12px #666666;
+      -moz-box-shadow: 3px 6px 12px #666666;
+      box-shadow: 3px 6px 12px #666666;
+      font-family: Arial;
+      color: white;
+      font-size: 20px;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+}
+
+.plus {
+    background-color: rgb(41, 199, 38);
+    border-radius: 10px 10px 10px 10px;
+}
+.moins {
+    background-color: rgb(215, 30, 30);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.myButton:hover {
+	background:white;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24537',GradientType=0);
+    color: rgb(109, 129, 167);
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.user-comments {
+    margin: 5px;
+    font-size: 20px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 25%;
+    font-size: 1.2vw;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.login-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+@media all and (min-width: 960px) {
+.left-panel{
+    font-size: 15px;
+  }
+  .right-panel {
+      max-height: 250px;
+     }
+
+}
+
+@media all and (max-width: 959px) and (min-width: 600px) {
+.left-panel{
+    font-size: 1.5vw;
+  }
+  .right-panel {
+      max-height: 150px;
+     }
+}
+
+@media all and (max-width: 599px) and (min-width: 50px) {
+.left-panel{
+    font-size: 2vw;
+  }
+  .right-panel {
+      max-height: 125px;
+     }
+}
+
+.pagination {
+
+    left: 0;
+    height: 100px;
+    width: 100%;
+    overflow:hidden;
+}
